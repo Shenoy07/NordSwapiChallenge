@@ -6,13 +6,18 @@ import Starships from "./Starships";
 import ReadableDate from "./ReadableDate";
 import { usePeople } from "../hooks/usePeople";
 import { useCommonContext } from "../context/CommonContextProvider";
+import { useState } from "react";
 
 export default function Table() {
-  usePeople();
+  const [isLoading, setIsLoading] = useState(false);
+
+  usePeople(setIsLoading);
+
   const { people } = useCommonContext();
-  console.log(people);
+
   return (
     <div className="DivForTable">
+      {isLoading && <i className="fa fa-spinner fa-2x" aria-hidden="true"></i>}
       <table>
         <thead>
           <th>Name</th>
@@ -28,8 +33,8 @@ export default function Table() {
           <th>Species</th>
           <th>Vehicles</th>
           <th>Starships</th>
-          <th>Created</th>
-          <th>Edited</th>
+          {/* <th>Created</th>
+          <th>Edited</th> */}
           {/* <th>url</th> */}
         </thead>
         <tbody>
@@ -47,9 +52,9 @@ export default function Table() {
               films,
               species,
               vehicles,
-              starships,
-              created,
-              edited
+              starships
+              // created,
+              // edited
             }) => (
               <tr key={name}>
                 <td>{name}</td>
@@ -65,8 +70,8 @@ export default function Table() {
                 <Species urlForSpecies={species} />
                 <Vehicles urlForVehicles={vehicles} />
                 <Starships urlForStarship={starships} />
-                <ReadableDate defaultDateFormat={created} />
-                <ReadableDate defaultDateFormat={edited} />
+                {/* <ReadableDate defaultDateFormat={created} />
+                <ReadableDate defaultDateFormat={edited} /> */}
               </tr>
             )
           )}

@@ -1,17 +1,17 @@
 import axios from "axios";
 import { useEffect } from "react";
 import { useCommonContext } from "../context/CommonContextProvider";
-export function usePeople() {
+export function usePeople(setIsLoading) {
   let { setPeople, pageNumber, displaySearchResult } = useCommonContext();
 
   useEffect(() => {
-    console.log("Initiating PageNumber", pageNumber);
+    setIsLoading(true); //-->loading on
+
     let source = axios.CancelToken.source();
 
     if (!displaySearchResult) {
       (async function () {
         let response;
-        //-->loading on
 
         try {
           response = await axios.get(
@@ -22,6 +22,7 @@ export function usePeople() {
         } catch (error) {
           console.log(error);
         }
+        setIsLoading(false);
         //-->Loading off
       })();
     }
