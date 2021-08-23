@@ -1,12 +1,11 @@
 li {
   padding: 0.2rem;
-  list-style: none;
 }
 .ComponentTableData {
   text-align: left;
 }
 ul {
-  overflow: hidden;
+  list-style: none;
 }
 
 .NotAvailable-span {

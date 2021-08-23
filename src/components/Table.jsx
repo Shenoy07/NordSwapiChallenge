@@ -17,7 +17,9 @@ export default function Table() {
 
   return (
     <div className="DivForTable">
-      {isLoading && <i className="fa fa-spinner fa-2x" aria-hidden="true"></i>}
+      {isLoading && (
+        <i id="spinner" className="fa fa-spinner fa-2x" aria-hidden="true"></i>
+      )}
       <table>
         <thead>
           <th>Name</th>

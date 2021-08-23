@@ -17,9 +17,5 @@ function ListFilms({ films }) {
 
 export default function Films({ filmLinks }) {
   const films = useFilms(filmLinks);
-  return (
-    <td className="ComponentTableData">
-      {films.length !== 0 ? <ListFilms films={films} /> : "N/A"}
-    </td>
-  );
+  return <td>{films.length !== 0 ? <ListFilms films={films} /> : "N/A"}</td>;
 }

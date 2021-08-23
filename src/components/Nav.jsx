@@ -19,7 +19,7 @@ export default function Nav() {
 
   return (
     <div className="PageNavigationAndSearchBar">
-      <div>
+      <div className="SearchBar">
         <button
           onClick={() => {
             setDisplaySearchResult(false);
@@ -28,9 +28,10 @@ export default function Nav() {
             console.log(people);
           }}
         >
-          ClearSearch
+          Clear
         </button>
         <input
+          placeholder="name of character"
           value={name}
           onChange={(event) => {
             setName(event.target.value);
@@ -53,23 +54,23 @@ export default function Nav() {
             })();
           }}
         >
-          Go
+          Search
         </button>
       </div>
-      <div>
+      <div className="Previous-and-Next">
         <button
           onClick={() => {
             if (pageNumber > 1) setPageNumber(pageNumber - 1);
           }}
         >
-          previousPage
+          <i class="fa fa-chevron-left" aria-hidden="true"></i>
         </button>
         <button
           onClick={() => {
             if (pageNumber < 9) setPageNumber(pageNumber + 1);
           }}
         >
-          nextPage
+          <i className="fa fa-chevron-right" aria-hidden="true"></i>
         </button>
       </div>
     </div>

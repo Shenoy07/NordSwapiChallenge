@@ -1,23 +1,20 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
 @import url("https://fonts.googleapis.com/css?family=Titillium+Web:200,600");
 
+body {
+  background-color: black;
+}
 .App {
-  font-family: Titillium;
+  font-family: Titillium + Web, sans-serif;
   text-align: center;
-
-  margin: 1rem;
-  font-weight: 600;
-  /* overflow: hidden; */
-  overflow-x: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
 }
 
-input {
-  height: 3rem;
-  width: 20rem;
-  margin: 2rem;
-}
-button {
-  height: 3rem;
-  width: 10rem;
-  margin-bottom: 2rem;
+.Heading {
+  margin-top: 1rem;
+  content: url("https://see.fontimg.com/api/renderfont4/DGRW/eyJyIjoiZnMiLCJoIjo3MSwidyI6MTAwMCwiZnMiOjcxLCJmZ2MiOiIjRThENzEzIiwiYmdjIjoiI0ZGRkZGRiIsInQiOjF9/U1RBUiBXQVJTIFRBQkxF/star-jedi.png");
 }

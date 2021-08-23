@@ -1,34 +1,29 @@
+table {
+  border-collapse: collapse;
+  max-width: 100%;
+  margin: auto;
+}
 table,
 th,
 td {
-  border: solid 0.1rem #512f26;
+  border: solid white;
   font-size: 1.3rem;
-  padding: 0.3rem;
-  border-collapse: collapse;
+  padding: 0rem;
   cursor: pointer;
-
-  overflow: auto;
 }
 td:hover {
-  transform: scale(1.2);
-}
-table {
-  /* border-collapse: collapse; */
-  text-align: center;
-  width: 80%;
-  border-collapse: collapse;
-  margin-left: auto;
-  margin-right: auto;
+  transform: scale(1.1);
 }
 
-.DivforTable {
-  overflow-x: auto;
+table * {
+  padding: 0.15rem;
 }
+
 th {
   background-color: #181e38;
   color: #e5bfac;
   padding: 0.8rem;
-  border: #e5bfac solid;
+  border: white solid;
 }
 
 tr:nth-child(even) {
