@@ -1,7 +1,7 @@
 import axios from "axios";
 import { useEffect } from "react";
 import { useCommonContext } from "../context/CommonContextProvider";
-export function usePeople() {
+export function usePeople(setIsLoading) {
   let { setPeople, pageNumber, displaySearchResult } = useCommonContext();
 
   useEffect(() => {
@@ -12,6 +12,7 @@ export function usePeople() {
       (async function () {
         let response;
         //-->loading on
+
         try {
           response = await axios.get(
             `https://swapi.dev/api/people/?page=${pageNumber}`
