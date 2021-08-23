@@ -15,21 +15,25 @@ td:hover {
 table {
   /* border-collapse: collapse; */
   text-align: center;
+  width: 80%;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .DivforTable {
   overflow-x: auto;
 }
 th {
-  background-color: #462107;
-  color: #fae0ad;
+  background-color: #181e38;
+  color: #e5bfac;
   padding: 0.8rem;
-  border: #512f26 solid;
+  border: #e5bfac solid;
 }
 
 tr:nth-child(even) {
-  background-color: #fae0ad;
+  background-color: #aba3d6;
 }
 tr:nth-child(odd) {
-  background-color: #d8a56c;
+  background-color: #e78a6b;
 }
