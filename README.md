@@ -7,6 +7,7 @@ Imagine you are bingewatching a movie and the movie has 3 parts. Wouldn't it be 
 Don't worry, Myself a Potential Nord Finance Employee have brought to you, the \***\*perfect\*\*** Star Wars dictionary. \
 No need to worry about opening google everytime you see a charcter whom you are not familiar with or was in the first movie and suddenly has appeared in the seventh movie!
 We have got you covered.Just use the Search Functionality in our app and you will find everything about them(LITERALLY everything). It goes from their Name to the starships they own.
+![image](https://user-images.githubusercontent.com/31709147/130530751-8fc28920-b354-4c5c-96fc-176ac163f6b0.png)
 
 # How to Setup and run it on your Computer??
 
@@ -15,11 +16,8 @@ We have got you covered.Just use the Search Functionality in our app and you wil
 - Open the repository in terminal and type npm start
 - npm install react-scripts --save
 - npm start
-  -The app should start at localhost:3000
+- The app should start at localhost:3000
 
-# Swapi Table
-
-Swapi Table is a simple Table which helps you understand the Starwars universe
 
 # Technologies used:
 
@@ -32,7 +30,7 @@ Swapi Table is a simple Table which helps you understand the Starwars universe
 
 Lets dig more in to the Functionalities in the technical aspect:
 
-1. The Page has a paginated Table with 14 columns and 10 rows. Each having information about he character mentioned the first row.
+1. The Page has a paginated Table with 12 columns and 10 rows. Each having information about he character mentioned the first row.
 2. We can Search the elements in the Search Bar which will show us the result as a row in the table.
 3. It shows the loading state while the request is processing.
 4. Display the current search query in the search input
@@ -40,15 +38,34 @@ Lets dig more in to the Functionalities in the technical aspect:
 
 # The Color Palette:
 
-Sorry if you were expecting a simple and mainstream Black and Yellow color palette to be used in my table.
+As you would expect, I have used the yellow and black but also some other colors in the palatte.
 
-![148055-untitled-design-100 (1)](https://user-images.githubusercontent.com/31709147/130485043-f7991d72-d491-410b-9213-92ac10ec355b.jpg)
-I have used the colors from the above scene which is in the movie the Empire Strikes Back.
+![148055-untitled-design-100 (1)](https://user-images.githubusercontent.com/31709147/130531050-aa8c007a-68f9-44d7-b966-9db96e132869.jpg)
 
-![image](https://user-images.githubusercontent.com/31709147/130495354-21f3e2fe-8481-496d-9b4e-13679f288a07.png)
+
+I have used 4 colors from the above scene which is in the movie the Empire Strikes Back.
+
+![image](https://user-images.githubusercontent.com/31709147/130530986-d727746e-e6e9-490b-9583-6e7247cdae00.png)
+
 
 the colors used are:
 -#E5BFAC
 -#E78A6B
 -#ABA3D6
 -#181E38
+-#000000
+-#ffff00
+
+# My Learnings
+- I have mastered the 3 main hooks i.e. useState, useEffect and useContext(It was the first time I used it in an app, it was learnt by solely going through the document)
+- Used CSS animations whereever necessary.
+- I have got to know the best practices which are used for displaying tables in HTML.
+- Read the document provided by you guys and focused on quality over feature completeness. 
+- 
+
+# Short coming and future of the app. 
+- The table is still short of some functionalities and yet to pass some test cases.
+- I have to implement the sort functionality, which I know can be done with useReducer but due to time constraints I wasn't able to do so.
+
+
+# MAY the Force be with me
