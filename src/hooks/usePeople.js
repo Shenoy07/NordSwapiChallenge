@@ -1,7 +1,7 @@
 import axios from "axios";
 import { useEffect } from "react";
 import { useCommonContext } from "../context/CommonContextProvider";
-export function usePeople(setIsLoading) {
+export function usePeople() {
   let { setPeople, pageNumber, displaySearchResult } = useCommonContext();
 
   useEffect(() => {
