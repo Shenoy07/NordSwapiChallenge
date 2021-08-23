@@ -1,5 +1,9 @@
 # STAR WARS TABLE
 
+Kindly visit the below link once you are done reading.
+
+https://nord-swapi-challenge-pink.vercel.app/
+
 Imagine you are bingewatching a movie and the movie has 3 parts. Wouldn't it be too much to remember all the character names? You know what would be more difficult? Binge Watching a movie which has more than 6 parts 😆 and the worst part about that is? ALL THE CHARACTERS ARE RELATED SOMEHOW! And also the movie doesn't have a proper sequence in which we can watch it(It is still Disputed). You might have guessed the movie by now. It's STARWARS!
 
 ![starwars_characters](https://user-images.githubusercontent.com/31709147/130482308-3746964e-fc25-4f3a-a85b-500833cb52f3.jpg)
@@ -49,12 +53,12 @@ I have used 4 colors from the above scene which is in the movie the Empire Strik
 
 
 the colors used are:
--#E5BFAC
--#E78A6B
--#ABA3D6
--#181E38
--#000000
--#ffff00
+- #E5BFAC
+- #E78A6B
+- #ABA3D6
+- #181E38
+- #000000
+- #FFFF00
 
 # My Learnings
 - I have mastered the 3 main hooks i.e. useState, useEffect and useContext(It was the first time I used it in an app, it was learnt by solely going through the document)
