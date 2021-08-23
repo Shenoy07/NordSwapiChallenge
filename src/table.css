@@ -1,0 +1,35 @@
+table,
+th,
+td {
+  border: solid 0.1rem #512f26;
+  font-size: 1.3rem;
+  padding: 0.3rem;
+  border-collapse: collapse;
+  cursor: pointer;
+
+  overflow: auto;
+}
+td:hover {
+  transform: scale(1.2);
+}
+table {
+  /* border-collapse: collapse; */
+  text-align: center;
+}
+
+.DivforTable {
+  overflow-x: auto;
+}
+th {
+  background-color: #462107;
+  color: #fae0ad;
+  padding: 0.8rem;
+  border: #512f26 solid;
+}
+
+tr:nth-child(even) {
+  background-color: #fae0ad;
+}
+tr:nth-child(odd) {
+  background-color: #d8a56c;
+}

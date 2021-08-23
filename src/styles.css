@@ -1,0 +1,23 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+@import url("https://fonts.googleapis.com/css?family=Titillium+Web:200,600");
+
+.App {
+  font-family: Titillium;
+  text-align: center;
+  background-color: #0a0907;
+  margin: 1rem;
+  font-weight: 600;
+  /* overflow: hidden; */
+  overflow-x: auto;
+}
+
+input {
+  height: 3rem;
+  width: 20rem;
+  margin: 2rem;
+}
+button {
+  height: 3rem;
+  width: 10rem;
+  margin-bottom: 2rem;
+}
