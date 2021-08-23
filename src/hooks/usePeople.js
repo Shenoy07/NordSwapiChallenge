@@ -30,5 +30,5 @@ export function usePeople(setIsLoading) {
     return () => {
       source.cancel("axios call cancelled");
     };
-  }, [pageNumber, displaySearchResult]);
+  }, [setIsLoading, setPeople, pageNumber, displaySearchResult]);
 }

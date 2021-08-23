@@ -1,13 +1,13 @@
 import useFilms from "../hooks/useFilms";
 import { v4 as uuidv4 } from "uuid";
-import { BiCameraMovie } from "react-icons/bi";
+// import { BiCameraMovie } from "react-icons/bi";
 
 function ListFilms({ films }) {
   return (
     <ul>
       {films.map(({ name }) => (
         <li key={uuidv4()}>
-          <BiCameraMovie />
+          {/* <BiCameraMovie /> */}
           {name}
         </li>
       ))}

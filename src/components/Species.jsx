@@ -5,7 +5,7 @@ export default function Species({ urlForSpecies }) {
 
   const questionSymbol = "fa fa-question fa-lg";
   const droidSymbol = "fa fa-android fa-lg";
-  const userCircle = "fas fa-user-circle";
+  // const userCircle = "fas fa-user-circle";
 
   return (
     <td className="Species-logo">

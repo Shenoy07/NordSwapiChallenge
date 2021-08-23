@@ -3,7 +3,7 @@ import Films from "./Films";
 import Species from "./Species";
 import Vehicles from "./Vehicles";
 import Starships from "./Starships";
-import ReadableDate from "./ReadableDate";
+// import ReadableDate from "./ReadableDate";
 import { usePeople } from "../hooks/usePeople";
 import { useCommonContext } from "../context/CommonContextProvider";
 import { useState } from "react";

@@ -24,6 +24,7 @@ export default function Nav() {
           onClick={() => {
             setDisplaySearchResult(false);
             setName("");
+            setPageNumber(1);
             console.log(people);
           }}
         >

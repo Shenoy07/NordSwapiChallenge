@@ -1,5 +1,5 @@
 import useVehicles from "../hooks/useVehicles";
-import { RiSpaceShipLine } from "react-icons/ri";
+// import { RiSpaceShipLine } from "react-icons/ri";
 import { v4 as uuidv4 } from "uuid";
 
 function ListVehicles({ vehicles }) {
@@ -7,7 +7,7 @@ function ListVehicles({ vehicles }) {
     <ul className="vehicles-space">
       {vehicles.map(({ name }) => (
         <li key={uuidv4()}>
-          <RiSpaceShipLine />
+          {/* <RiSpaceShipLine /> */}
           {name}
         </li>
       ))}

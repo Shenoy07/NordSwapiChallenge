@@ -17,6 +17,6 @@ export function useSearchName(nameToSearch) {
         console.err(error);
       }
     })();
-  }, [nameToSearch]);
+  }, [setPeople, nameToSearch]);
   return people;
 }
