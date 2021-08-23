@@ -33,7 +33,15 @@ Lets dig more in to the Functionalities in the technical aspect:
 
 # The Color Palette:
 Sorry if you were expecting a simple and mainstream Black and Yellow color palette to be used in my table.
-I have used the colors from the scene which is in the movie the Empire Strikes Back.
+
 
 ![148055-untitled-design-100 (1)](https://user-images.githubusercontent.com/31709147/130485043-f7991d72-d491-410b-9213-92ac10ec355b.jpg)
+I have used the colors from the above scene which is in the movie the Empire Strikes Back.
 
+![image](https://user-images.githubusercontent.com/31709147/130495354-21f3e2fe-8481-496d-9b4e-13679f288a07.png)
+
+the colors used are: 
+-#E5BFAC
+-#E78A6B
+-#ABA3D6
+-#181E38
