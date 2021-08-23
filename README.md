@@ -9,7 +9,14 @@ Don't worry, Myself a Potential Nord Finance Employee have brought to you, the *
 No need to worry about opening google everytime you see a charcter whom you are not familiar with or was in the first movie and suddenly has appeared in the seventh movie!
 We have got you covered.Just use the Search Functionality in our app and you will find everything about them(LITERALLY everything). It goes from their Name to the starships they own.
 
+# How to Setup and run it on your Computer??
 
+- Clone the repository
+- nodeJS 14.x or later should be installed on your system.
+- Open the repository in terminal and type npm start
+- npm install react-scripts --save
+- npm start
+-The app should start at localhost:3000
 
 # Swapi Table 
 
