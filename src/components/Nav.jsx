@@ -13,10 +13,6 @@ export default function Nav() {
   } = useCommonContext();
   let [name, setName] = useState("");
 
-  console.log(people);
-  console.log(pageNumber);
-  console.log(displaySearchResult);
-
   return (
     <div className="PageNavigationAndSearchBar">
       <div className="SearchBar">
@@ -25,7 +21,6 @@ export default function Nav() {
             setDisplaySearchResult(false);
             setName("");
             setPageNumber(1);
-            console.log(people);
           }}
         >
           Clear
