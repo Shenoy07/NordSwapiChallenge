@@ -52,19 +52,20 @@ export default function Nav() {
             setDisplaySearchResult(true);
             if (name === "") {
               search();
-            }
-            (async function () {
-              let response;
+            } else {
+              (async function () {
+                let response;
 
-              try {
-                response = await axios.get(
-                  `https://swapi.dev/api/people/?search=${name}`
-                );
-                setPeople(response.data.results);
-              } catch (error) {
-                console.error(error);
-              }
-            })();
+                try {
+                  response = await axios.get(
+                    `https://swapi.dev/api/people/?search=${name}`
+                  );
+                  setPeople(response.data.results);
+                } catch (error) {
+                  console.error(error);
+                }
+              })();
+            }
           }}
         >
           Search
